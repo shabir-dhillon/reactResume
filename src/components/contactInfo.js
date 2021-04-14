@@ -5,19 +5,14 @@ export default class Contact extends Component {
   render() {
     return (
       <div className="main">
-        <div>
-          <strong className="fullName">Shabir Singh Dhillon</strong>
-        </div>
-        <div>
-          <p> 42, Jalan Tempinis 2, Lucky Garden, 59100, Kuala Lumpur</p>
-        </div>
-        <div>
+        <div className="contact">
           <p>
+            <strong className="fullName">Shabir Singh Dhillon</strong>
+            <br />
+           42, Jalan Tempinis 2, Lucky Garden, 59100, Kuala Lumpur
+           <br />
             +60 122470259
-          </p>
-        </div>
-        <div>
-          <p>
+            <br />
             shabirsingh00@gmail.com
           </p>
         </div>
@@ -25,13 +20,3 @@ export default class Contact extends Component {
     )
   }
 }
-
-// //           <p>
-//             <strong className="fullName">Shabir Singh Dhillon</strong>
-//             <br />
-// 42, Jalan Tempinis 2, Lucky Garden, 59100, Kuala Lumpur
-//   < br />
-//   +60 122470259
-//     < br />
-//     shabirsingh00@gmail.com
-//           </p >

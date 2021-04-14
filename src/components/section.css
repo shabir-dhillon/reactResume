@@ -1,0 +1,4 @@
+.itemInfo {
+  display: flex;
+  flex-direction: row;
+}

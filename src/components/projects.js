@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import './section.css';
 
-export default class Educations extends Component {
+export default class Projects extends Component {
   render() {
     return (
       <div>
         <div className="card z-depth-0">
           <div className="card-content">
             <h6>
-              <strong>EDUCATION</strong>
+              <strong>PROJECTS</strong>
             </h6>
             <hr />
             <div className="row mt">
@@ -17,24 +17,18 @@ export default class Educations extends Component {
                 <div className="itemInfo">
                   <div>
                     <h6 className="no-pad mt-bottom">
-                      <strong>University College London (UCL)</strong>
+                      <strong>Tetris Auto-Player – UCL</strong>
                     </h6>
-                    {/* <br /> */}
-                    First Year BSc Computer Science
                   </div>
                   <div>
-                    <span> London, United Kingdom
-                      <br />
-                      Sep 2020 – Jun 2023
+                    <span>
+                      Oct 2020 – Dec 2020
                     </span>
                   </div>
                 </div>
                 <ul>
                   <li>
-                    Key Modules: Object-Oriented Programming, Algorithms, Design & Professional Skills 1 and Engineering Challenges
-                  </li>
-                  <li>
-                    Awards: Yayasan Sime Darby Undergraduate Excellence Scholarship
+                    (Problem-solving) Built an auto-player using Python that calculates the best move for each piece in a game based on 4 different heuristics.
                   </li>
                 </ul>
               </div>
@@ -43,24 +37,21 @@ export default class Educations extends Component {
                 <div className="itemInfo">
                   <div>
                     <h6 className="no-pad mt-bottom">
-                      <strong>HELP ACADEMY</strong>
+                      <strong>Java Swing GUI - UCL</strong>
                     </h6>
-                    {/* <br /> */}
-                   GCE Advanced Level
                   </div>
                   <div>
-                    <span> Kuala Lumpur, Malaysia
-                      <br />
-                      Jan 2018 – Jun 2019
+                    <span>
+                      Feb 2021 – Mar 2021
                     </span>
                   </div>
                 </div>
                 <ul>
                   <li>
-                    Awards: School Achiever Scholastic Award (Full scholarship awarded by HELP Academy to complete the GCE A-levels)
+                    (Innovation) Designed and implemented a Graphical User Interface (GUI) system using Java to load in data from medical patient csv files into a table format and perform operations on the table.
                   </li>
                   <li>
-                    Academics: 3A* in Mathematics, Biology & Chemistry
+                    Operations include running searches on the data, for example, to find the oldest living person as well as being able to generate graph to visualize the data.
                   </li>
                 </ul>
               </div>
@@ -69,24 +60,21 @@ export default class Educations extends Component {
                 <div className="itemInfo">
                   <div>
                     <h6 className="no-pad mt-bottom">
-                      <strong>SMK BUKIT BANDARAYA</strong>
+                      <strong>Convex Hull Algorithm Experiment - UCL</strong>
                     </h6>
-                    {/* <br /> */}
-                    Certificate of Education Malaysia (SPM)
                   </div>
                   <div>
-                    <span> Kuala Lumpur, Malaysia
-                      <br />
-                      Jan 2013 – Dec 2017
+                    <span>
+                      Feb 2021 – March 2021
                     </span>
                   </div>
                 </div>
                 <ul>
                   <li>
-                    Awards: Highest Achiever (2017)
+                    (Analytical) Implemented 3 convex hull algorithms, Jarvis March, Graham Scan & Extended Graham Scan.
                   </li>
                   <li>
-                    Academics: Distinction in Physics, Chemistry, History, Additional Mathematics, Mathematics, and Accounting
+                    Carried out experiments to determine the time complexity for each algorithm and analysed performance of each algorithm.
                   </li>
                 </ul>
               </div>

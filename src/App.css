@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  
+}
+
+.resume {
+  font-family: Arial;
+  font-size: 10pt;
 }
 
 .App-logo {
