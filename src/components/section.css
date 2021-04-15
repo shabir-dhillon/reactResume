@@ -1,4 +1,15 @@
 .itemInfo {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tableEntry
+{
+  display: flex;
+}
+
+.dateEntry
+{
+  margin-left: 20%;
 }
