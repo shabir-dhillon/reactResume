@@ -4,6 +4,14 @@
   flex-wrap: wrap;
 }
 
+.tableTitle{
+    font-weight: 780;
+}
+
+.subTitle{
+  font-style: italic;
+}
+
 .tableEntry
 {
   display: flex;

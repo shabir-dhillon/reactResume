@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './section.css';
+import { List } from 'semantic-ui-react'
 
 export default class Experience extends Component {
   render() {
@@ -7,8 +8,8 @@ export default class Experience extends Component {
       <div>
         <div className="card z-depth-0">
           <div className="card-content">
-            <h6>
-              <strong>Work Experience</strong>
+            <h6 className="tableTitle">
+              Work Experience
             </h6>
             <hr />
             <div className="row mt">
@@ -17,21 +18,18 @@ export default class Experience extends Component {
                 <div className="col s6">
                   <div className="itemInfo">
                     <div>
-                      <h6 className="no-pad mt-bottom">
-                        <strong>SOLS 24/7 Foundation (Science of Life Studies 247)</strong>
+                      <h6 className="tableTitle">
+                        SOLS 24/7 Foundation (Science of Life Studies 247)
                       </h6>
-                      {/* <br /> */}
-                    Digital Sales & Marketing Intern
+                      <div className="subTitle">
+                        Digital Sales & Marketing Intern
+                    </div>
+                    </div>
                   </div>
-                  </div>
-                  <ul>
-                    <li>
-                      Assisted in dealing with client’s queries regarding SOLS 24/7’s free online education platform and handled day-to-day scheduled marketing posts & social media update.
-                  </li>
-                    <li>
-                      Key transactions include: Marketing campaign to increase awareness on the education platform by designing an Instagram filter using SparkAR Studio.
-                  </li>
-                  </ul>
+                  <List bulleted>
+                    <List.Item>Assisted in dealing with client’s queries regarding SOLS 24/7’s free online education platform and handled day-to-day scheduled marketing posts & social media update.</List.Item>
+                    <List.Item>Key transactions include: Marketing campaign to increase awareness on the education platform by designing an Instagram filter using SparkAR Studio.</List.Item>
+                  </List>
                 </div>
                 <div className="col s4">
                   <span>
@@ -45,11 +43,12 @@ export default class Experience extends Component {
               <div className="col s6">
                 <div className="itemInfo">
                   <div>
-                    <h6 className="no-pad mt-bottom">
-                      <strong>Kumon</strong>
+                    <h6 className="tableTitle">
+                      Kumon
                     </h6>
-                    {/* <br /> */}
-                    Part-time Mathematics Teacher.
+                    <div className="subTitle">
+                      Part-time Mathematics Teacher.
+                    </div>
                   </div>
                 </div>
               </div>

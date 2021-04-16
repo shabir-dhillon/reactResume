@@ -12,6 +12,8 @@
     "react-native-hr-component": "^2.0.3",
     "react-native-unordered-list": "^1.0.4",
     "react-scripts": "4.0.3",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
