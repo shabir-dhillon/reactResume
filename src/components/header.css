@@ -6,9 +6,12 @@
 
 .contact {
   text-align: right;
-
+  margin-right: 36%;
 }
 
 .fullName{
   font-weight: 780;
+}
+.emailText{
+  color: black;
 }

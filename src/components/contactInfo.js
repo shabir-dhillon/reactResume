@@ -13,7 +13,7 @@ export default class Contact extends Component {
            <br />
             +60 122470259
             <br />
-            shabirsingh00@gmail.com
+            <a href='mailto:marek.masiak.20@ucl.ac.uk' className="emailText">shabirsingh00@gmail.com</a>
           </p>
         </div>
       </div>
