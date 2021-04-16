@@ -1,7 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import 'materialize-css/dist/css/materialize.min.css';
-import 'materialize-css/dist/js/materialize.min.js';
 import Contact from './components/contactInfo';
 import Educations from './components/education';
 import Experience from './components/experience';
