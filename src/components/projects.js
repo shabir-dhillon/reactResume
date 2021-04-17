@@ -9,7 +9,7 @@ export default class Projects extends Component {
         <div className="table">
           <div className="card z-depth-0">
             <div className="card-content">
-              <h6 >
+              <h6 className="tableTitle">
                 PROJECTS
               </h6>
               <hr />
